@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/App.css';
+import Apunte from './Componetes/Apunte.js';
+import MenuVar from './Componetes/MenuVar.js';
+import AgregarApunte from './Componetes/AgregarApunte.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <MenuVar/>
       </header>
+      <div className="Koana wrapper">
+        <button id="btnAgregar">Agregar Apunte</button>
+        <div id="Koana-Contenido-total">
+          <Apunte/>
+        </div>
+      </div>
+
+      <AgregarApunte/>  
     </div>
   );
 }
 
 export default App;
+
