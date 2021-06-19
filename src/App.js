@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <MenuVar/>
+         <MenuVar/>
+         <MenuVar/>
       </header>
       <div className="Koana wrapper">
         <button id="btnAgregar">Agregar Apunte</button>
