@@ -1,4 +1,5 @@
 import React from 'react';
+import Login from './Login.js';
 
 class MenuVar extends React.Component{
     render(){
@@ -8,7 +9,7 @@ class MenuVar extends React.Component{
                 <nav>
                     <a href="#"  type="button">Search</a>
                     <a href="#"  type="button">Friends</a>
-                    <a href="#"  type="button">Perfil</a>
+                    <Login/>
                 </nav>
             </div>
         );

@@ -1,5 +1,8 @@
 import React from 'react';
 import Etiqueta from './Etiqueta.js';
+import Like from 'C:/Users/HP/Desktop/prueba/src/assets/imagenes/like.png';
+import Dislike from 'C:/Users/HP/Desktop/prueba/src/assets/imagenes/dislike.png';
+import Compartir from 'C:/Users/HP/Desktop/prueba/src/assets/imagenes/share.png';
 
 class Apunte extends React.Component{
     render(){
@@ -21,7 +24,15 @@ class Apunte extends React.Component{
                         <Etiqueta/>
                     </div>
                     <div id="Tarea-Interacciones">
-                        
+                        <p id="btnLikes" class="btnInterracion">
+                            <img src={Like} class="tamano" alt=""/>
+                        </p>
+                        <p id="btnLikes" class="btnInterracion">
+                            <img src={Dislike} class="tamano" alt=""/>
+                        </p>
+                        <p id="btnLikes" class="btnInterracion">
+                            <img src={Compartir} class="tamano" alt=""/>
+                        </p>
                     </div>
                 </div>
 

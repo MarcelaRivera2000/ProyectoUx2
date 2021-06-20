@@ -69,11 +69,6 @@ header nav a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  visibility: hidden;/*para que ;a visibilidad desaparesca*/
-}
-
-.overlay.active{
-  visibility: visible;
 }
 
 .popup{
@@ -236,21 +231,12 @@ p #Vtitulo,#Vetiquetas{
 }
 
 .btn{
-  margin-bottom: 25px;
-  height: 35px;
-  width: 50%;
-  max-width: 1000px;
-  padding: 0;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #dbdbdb;
-  font-size: 20px;
+  width: 400px;
+  height: 35px;
 }
 
-.btn:hover{
-  background-color: #f3a897;
-  border: 1px solid #dd8b78;
-  color: #fff;
-}
 
 #IncioSeccion a{
   color:#dd8b78;
@@ -307,4 +293,37 @@ p #Vtitulo,#Vetiquetas{
 
 .Registro-popup .btn-cerrar-popup:hover{
   color: #f3a897;
+}
+
+.popup2{
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  width: 520px;
+  height: 320px;
+}
+
+.popup2 #popoBack{
+  margin-top: 20px;
+}
+
+.btn:hover{
+  border: 1px solid #dd8b78;
+  color: #dd8b78;
+  font-size: 20px;
+}
+
+.btnSingGoogle{
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #dbdbdb;
+  width: 400px;
+  height: 35px;
+}
+.btnSingGoogle:hover{
+  font-size: 20px;
+  border: 1px solid #2d88ff;
+  color:#2d88ff;
 }
