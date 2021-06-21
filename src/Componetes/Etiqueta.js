@@ -1,11 +1,11 @@
 import React from 'react';
 
-class Etiqueta extends React.Component{
-    render(){
-        return (
-            <b href="#" type="button" value="Etiqueta#1">Etiqueta#1</b>
-        );
-    }
+const Etiqueta=({etiquetas})=>{
+    return (
+        <b href="#" type="button" value="">{etiquetas}</b>
+    );
 }
+
+
 
 export default Etiqueta;

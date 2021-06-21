@@ -7,8 +7,7 @@ class MenuVar extends React.Component{
             <div class ="wrapper">
                 <p id="NameEmpresa">Menexx</p>
                 <nav>
-                    <a href="#"  type="button">Search</a>
-                    <a href="#"  type="button">Friends</a>
+                    <a href="#"  type="button">Favoritos</a>
                     <Login/>
                 </nav>
             </div>

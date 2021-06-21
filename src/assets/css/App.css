@@ -160,7 +160,7 @@ p #Vtitulo,#Vetiquetas{
   margin-bottom: 100px;
 }
 
-#Contenido-Contener{
+ #Contenido-Contener{
   display: flex;
   border: 2px solid #dbdbdb;
   background-color: #fff;
@@ -177,7 +177,7 @@ p #Vtitulo,#Vetiquetas{
   font-size: 15px;
 }
 
-.Koana #Contenido-Tarea h4{
+#Contenido-Tarea h4{
   color:#94996a;
   font-size: 23px;
   margin-left: 2%;
@@ -185,7 +185,7 @@ p #Vtitulo,#Vetiquetas{
   margin-top: 5px;
 }
 
-.Koana #Contenido-Tarea #Descripcion{
+ #Descripcion{
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
@@ -217,7 +217,9 @@ p #Vtitulo,#Vetiquetas{
 #Tarea-Interacciones p{
   margin-right: 1%;
   margin-bottom: 10px;
+  vertical-align: text-bottom;  
 }
+
 #Etiquetas{
   display: flex;
 }
